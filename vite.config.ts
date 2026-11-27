@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         main: fileURLToPath(new URL('./index.html', import.meta.url)),
         cart: fileURLToPath(new URL('./cart.html', import.meta.url)),
+        catalog: fileURLToPath(new URL('./catalog.html', import.meta.url)),
       },
     },
   },
