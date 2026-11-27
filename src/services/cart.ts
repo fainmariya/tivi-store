@@ -1,5 +1,5 @@
-import { Product } from '../types/product';
-import { CartItem } from '../types/cart';
+import type { Product } from '../types/product';
+import type { CartItem } from '../types/cart';
 
 export class CartService {
   private readonly STORAGE_KEY = 'shopping_cart';
