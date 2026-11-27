@@ -6,10 +6,12 @@ import keratinHairMask from "../assets/mask/KeratinHairMask.png";
 import hairCreamImage from "../assets/care/HairCream.png";
 import woodenCombImage from "../assets/accessories/Comb.png";
 import cosmeticBagImage from "../assets/accessories/CosmeticBag.png";
-import silkHairSystem from "../assets/ hair/HairSystem.png";
+import silkHairSystem from "../assets/hairSystems/HairSystem.png";
 import hair120_50Image from "../assets/hair/Hair2_120gm_50cm.png";
 import hair116_50Image from "../assets/hair/Hair_116gm_50cm.png";
 import hair98_65Image from "../assets/hair/Hair5_98gm_65cm.png";
+import hair142_50Image from "../assets/hair/Hair1_142gm_50cm.png";
+import hair110_50Image from "../assets/hair/Hair3_110gm_50cm.png";
 import weftsImage from "../assets/hair/wefts_new..png"
 
 
@@ -88,20 +90,20 @@ export const products: Product[] = [
     },
     {
         id: 9,
-        name: "Silk Top Hair System",
-        category: "Hair Systems",
-        price: 1800,
-        volume: "Cap size: 12 × 14 cm",
-        image: silkHairSystem,
+        name: "Premium Human Hair",
+        category: "Hair",
+        price: 500,
+        volume: "110 g / 50 cm",
+        image: hair110_50Image,
         description: "Natural scalp effect with a lightweight, seamless finish.", 
     },
     {
         id: 10,
-        name: "Silk Top Hair System",
-        category: "Hair Systems",
-        price: 2000,
-        volume: "Cap size: 14 × 16 cm",
-        image: silkHairSystem,
+        name: "Premium Human Hair",
+        category: "Hair",
+        price: 500,
+        volume: "142 g / 50 cm",
+        image: hair142_50Image,
         description: "Natural scalp effect with a lightweight, seamless finish.", 
     },
     {
