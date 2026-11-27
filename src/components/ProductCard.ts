@@ -15,7 +15,10 @@ export function createProductCard(product: Product): HTMLElement {
     const productContent = document.createElement("div");
       productContent.classList.add("product-card__content");
       card.append(productContent);
-
+      const productCategory = document.createElement("p");
+      productCategory.classList.add("product-card__category");
+      productCategory.textContent = product.category;
+      productContent.append(productCategory);
     const productTitle = document.createElement("h2");
       productTitle.classList.add("product-card__title");
       productTitle.textContent = product.name;

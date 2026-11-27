@@ -7,12 +7,10 @@ import hairCreamImage from "../assets/care/HairCream.png";
 import woodenCombImage from "../assets/accessories/Comb.png";
 import cosmeticBagImage from "../assets/accessories/CosmeticBag.png";
 import silkHairSystem from "../assets/hairSystems/HairSystem.png";
-import hair120_50Image from "../assets/hair/Hair2_120gm_50cm.png";
-import hair116_50Image from "../assets/hair/Hair_116gm_50cm.png";
-import hair98_65Image from "../assets/hair/Hair5_98gm_65cm.png";
-import hair142_50Image from "../assets/hair/Hair1_142gm_50cm.png";
-import hair110_50Image from "../assets/hair/Hair3_110gm_50cm.png";
-import weftsImage from "../assets/hair/wefts_new..png"
+import hairImage from "../assets/hairExtensions/hairextensions.png";
+import weftsImage from "../assets/hairExtensions/wefts_new..png"
+import momtureImage from "../assets/accessories/monture_guide_rus.png"
+
 
 
 export const products: Product[] = [
@@ -91,54 +89,26 @@ export const products: Product[] = [
     {
         id: 9,
         name: "Premium Human Hair",
-        category: "Hair",
+        category: "Hair Extensions",
         price: 500,
         volume: "110 g / 50 cm",
-        image: hair110_50Image,
-        description: "Natural scalp effect with a lightweight, seamless finish.", 
+        image: hairImage,
+        description: "Premium human hair selected for softness, natural movement, and seamless blending. Available in different lengths, shades, and weights for a customized result.", 
     },
     {
         id: 10,
-        name: "Premium Human Hair",
-        category: "Hair",
-        price: 500,
-        volume: "142 g / 50 cm",
-        image: hair142_50Image,
-        description: "Natural scalp effect with a lightweight, seamless finish.", 
-    },
-    {
-        id: 11,
-        name: "Premium Human Hair",
-        category: "Hair",
-        price: 500,
-        volume: "120 g / 50 cm",
-        image: hair120_50Image,
-        description: "Premium human hair selected for softness, natural movement, and seamless blending. Available in different lengths, shades, and weights for a customized result."
-    },
-    {
-        id: 12,
-        name: "Premium Human Hair",
-        category: "Hair",
-        price: 500,
-        volume: "116 g / 50 cm",
-        image: hair116_50Image,
-        description: "Premium human hair selected for softness, natural movement, and seamless blending. Available in different lengths, shades, and weights for a customized result."
-    },
-    {
-        id: 13,
-        name: "Premium Human Hair",
-        category: "Hair",
-        price: 500,
-        volume: "98 g / 65 cm",
-        image: hair98_65Image,
-        description: "Premium human hair selected for softness, natural movement, and seamless blending. Available in different lengths, shades, and weights for a customized result."
-    },
-    {
-        id: 14,
         name: "Wefts",
         category: "Hair",
         price: 1000,
         image: weftsImage,
         description: "Weft extensions are a lightweight method of adding length and volume with natural-looking movement. Pricing is based on the grams of hair required and the installation service.."
+    },
+    {
+        id: 11,
+        name: "Monture guide",
+        category: "Accessories",
+        price: 70,
+        image: momtureImage,
+        description: "A step-by-step guide to creating a professional wig foundation (monture)."
     },
 ];
