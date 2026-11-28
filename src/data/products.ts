@@ -98,7 +98,7 @@ export const products: Product[] = [
     {
         id: 10,
         name: "Wefts",
-        category: "Hair",
+        category: "Hair Extensions",
         price: 1000,
         image: weftsImage,
         description: "Weft extensions are a lightweight method of adding length and volume with natural-looking movement. Pricing is based on the grams of hair required and the installation service.."
