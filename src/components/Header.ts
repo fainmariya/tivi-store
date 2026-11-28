@@ -10,9 +10,8 @@ export function createHeader(): HTMLElement {
     nav.setAttribute("aria-label", "Main navigation");
     
     const navigationItems = [
-        { label: 'Home', href: '/index.html' },
-        { label: 'Catalog', href: '/catalog.html' },
         { label: 'About Us', href: '/index.html' },
+        { label: 'Catalog', href: '/catalog.html' },
       ];
       
       navigationItems.forEach((item) => {
