@@ -7,14 +7,18 @@
   <link rel="stylesheet" href="./src/style.css" />
 </head>
 <body>
-  <header>
-    <a href="index.html">← Back to Catalog</a>
-    <h1>Shopping Cart</h1>
-  </header>
+  <div id="app">
+    <main class="cart-container">
+      <h1>Shopping Cart</h1>
 
-  <main>
-    <div id="cart-container"></div>
-  </main>
+      <div id="cart-container"></div>
+
+      <div class="cart-summary" hidden>
+        <span>Total:</span>
+        <strong id="cart-total">$0</strong>
+      </div>
+    </main>
+  </div>
 
   <script type="module" src="./src/pages/cart/cart.ts"></script>
 </body>
